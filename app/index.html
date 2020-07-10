@@ -1,0 +1,32 @@
+---
+title: index
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<main id="app">
+  <img src="https://images.unsplash.com/photo-1530274484058-c2b32e70c9ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2130&q=80" alt="" class="banner mb-6">
+  
+  <section class="container">
+    <div class="row">
+      <div class="col-12 mb-5">
+        <h2>五大性格特質</h2>
+        <div class="d-flex align-items-center">
+          <h2 class="mr-3">心理測驗</h2>
+          <p class="h4 align-top mb-0 text-nowrap">Big Five personality<br> traits test</p>
+        </div>
+      </div>
+      <div class="col-4 ml-auto">
+        <p>{{ apiData.description }}</p>
+      </div>
+      <div class="col-3">
+        <a href="question.html" class="btn btn-primary btn-lg btn-block py-3">開始測驗</a>
+      </div>
+    </div>
+   
+    
+
+    
+   
+  </section>
+</main>

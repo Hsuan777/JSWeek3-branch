@@ -1,0 +1,36 @@
+// 瀏覽器可能為20px
+html{
+  font-size: 16px;
+}
+body{
+  overflow-x: hidden;
+}
+h1, .h1 {
+  font-size: 96px;
+}
+h2, .h2 {
+  font-size: 64px;  
+}
+h3, .h3 {
+  font-size: 48px;  
+}
+h4, .h4 {
+  font-size: 24px;  
+}
+
+
+
+h1, .h1,h2, .h2,h3, .h3,h4, .h4{
+  line-height: 1.5;
+}
+h1, h2, h3, h4{
+  color: #000000DE;
+} 
+.banner{
+  width: 100%;
+  height: 540px;
+  object-fit: cover;
+}
+.vh-100{
+  min-height: 100vh;
+}

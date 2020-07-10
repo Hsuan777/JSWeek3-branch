@@ -1,0 +1,37 @@
+---
+title: question
+layout: ./app/layout.ejs
+engine: ejs
+current: question
+---
+<main id="app">
+  <section class="container-fluid">
+    <div class="row vh-100">
+      <div class="col-6 bg-secondary">
+        <div class="p-6">
+          <h2 class="h1">Q</h2>
+          <h3>{{ apiData.problemList.neuroticism.problems[0].problem }}</h3>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class=" p-6 h-100">
+
+          <form action="" class="">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Default radio
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Default radio
+              </label>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
